@@ -122,6 +122,7 @@
     "index.d.ts",
     "router.d.ts",
     "fetch.d.ts",
-    "mobile.d.ts"
+    "mobile.d.ts",
+    "immutable.js"
   ]
 }
