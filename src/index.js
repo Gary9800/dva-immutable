@@ -31,7 +31,7 @@ export default createDva({
   setupHistory(history) {
     this._history = syncHistoryWithStore(history, this._store, {
       selectLocationState (state) {
-        return state.get('routing').toObject();
+        return state.get('routing').toJS();
       }
     });
   },
